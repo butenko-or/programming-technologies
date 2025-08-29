@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionXpathFilter Experimental Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2_xpath_experimental.dtd">
+
+<suppressions>
+    <suppress files="[/\\].idea[/\\]" checks=".*"/>
+    <suppress files="[/\\]build[/\\]" checks=".*"/>
+    <suppress files="[/\\]config[/\\]checkstyle[/\\]checkstyle-personal.xml" checks="LineLength"/>
+    <suppress files="[/\\]config[/\\]pmd[/\\]pmd.xml" checks="LineLength"/>
+    <suppress files="[/\\]resources[/\\]logback.xml" checks="LineLength"/>
+    <suppress files="[/\\]*Main" checks="HideUtilityClassConstructor"/>
+</suppressions>
